@@ -6,7 +6,7 @@ const HomeContainer = ({ homeInfo }) => {
 
   return (
     <div>
-      <Banner bannerInfo={homeInfo[9]} />
+      <Banner bannerInfo={homeInfo[3]} />
       <Categories />
 
       <Section sectionTitle="Popüler Filmler" movies={homeInfo.slice(0, 6)} />
