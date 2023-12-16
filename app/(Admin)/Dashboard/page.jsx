@@ -13,7 +13,7 @@ const AdminPage = () => {
     const router = useRouter()
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
-            if (user?.uid !== "vtOPf2JUymZdWAFY4ZLTfQLQyvp2") {
+            if (user?.uid !== "q7UFMvdwguWdYuOroCi65lWNzzO2") {
                 setIsAdmin(false)
                 router.push("/")
             }
