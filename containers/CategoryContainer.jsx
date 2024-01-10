@@ -1,14 +1,13 @@
-import Categories from '@/components/Categories'
-import Section from '@/components/Section'
+import Categories from "@/components/Categories";
+import Section from "@/components/Section";
 
 const CategoryContainer = ({ categoryName, sectionTitle }) => {
-    return (
-        <div>
-            <Categories />
-            <Section sectionTitle={sectionTitle} movies={categoryName} />
+  return (
+    <div>
+      <Categories />
+      <Section sectionTitle={sectionTitle} movies={categoryName} />
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default CategoryContainer
+export default CategoryContainer;

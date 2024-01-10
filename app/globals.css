@@ -2,24 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #000000;
+  background: #000000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #860000;
-    border-radius: 5px;
+  background: #860000;
+  border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ff0000;
+  background: #ff0000;
 }

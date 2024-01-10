@@ -8,10 +8,10 @@ const firebaseConfig = {
   projectId: "furkanpal-83077",
   storageBucket: "furkanpal-83077.appspot.com",
   messagingSenderId: "513452797896",
-  appId: "1:513452797896:web:2b434be9e0cee4d5911afd"
+  appId: "1:513452797896:web:2b434be9e0cee4d5911afd",
 };
 
 const app = initializeApp(firebaseConfig);
 
-export const db = getFirestore(app)
+export const db = getFirestore(app);
 export const auth = getAuth(app);

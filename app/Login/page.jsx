@@ -1,11 +1,7 @@
-import Login from "@/components/Login"
+import Login from "@/components/Login";
 
 const LoginPage = async () => {
-    return (
-        <div>
-            <Login />
-        </div>
-    )
-}
+  return <Login />;
+};
 
-export default LoginPage
+export default LoginPage;
